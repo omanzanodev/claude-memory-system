@@ -1,0 +1,22 @@
+# Claude Memory System - Open Source Components
+# Core dependencies for deduplication, filtering, and monitoring
+
+# Database connectivity
+psycopg2-binary>=2.9.0
+
+# Text similarity algorithms
+python-Levenshtein>=0.20.0
+
+# Optional: Enhanced performance
+# redis>=4.0.0  # For caching (uncomment if using Redis)
+# numpy>=1.21.0  # For numerical computations (uncomment if needed)
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+# black>=22.0.0
+# flake8>=5.0.0
+
+# Documentation (optional)
+# sphinx>=5.0.0
+# sphinx-rtd-theme>=1.0.0
